@@ -1,0 +1,4 @@
+az account show
+
+
+az ad sp create-for-rbac --name AzureResumeUser --role contributor --scopes /subscriptions/e47d2dd2-56cb-4e35-a055-d14df6ec6b5c/resourceGroups/AzureResume --sdk-auth
